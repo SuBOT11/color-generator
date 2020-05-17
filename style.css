@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 .wrapper {
   height: 100vh;
@@ -50,7 +50,6 @@ ul li a {
   position: absolute;
   bottom: 20%;
   left: 40%;
-  
 }
 .btn button {
   font-size: 1.2rem;
@@ -69,7 +68,7 @@ ul li a {
   width: 100%;
 }
 .color-info {
-  background :rgba(255, 255, 255, 0.089);
+  background: rgba(255, 255, 255, 0.089);
   height: 60px;
   width: 180px;
   position: absolute;
@@ -77,40 +76,42 @@ ul li a {
   left: 40%;
   text-align: center;
 }
-p{
+p {
   font-size: 2rem;
   font-weight: bolder;
   text-align: center;
 }
-@media screen and (max-width:600px){
-  ul li a{
+@media screen and (max-width: 500px) {
+  .wrapper {
+    position: relative;
+  }
+  .navbar-wrapper {
+    position: relative;
+  }
+  ul li a {
     font-size: 1rem;
   }
-  ul{
+  ul {
     flex: 1;
   }
-  h1{
+  h1 {
     flex: 1;
     font-size: 1rem;
   }
-  .btn{
+  .btn {
     position: absolute;
     bottom: 25%;
-    left: 16%;
-    
+    left: 50%;
+
     height: 20px;
     width: 30px;
-    
   }
-  .btn button{
+  .btn button {
     font-size: 0.8rem;
-   
-    
   }
-  .color-info{
+  .color-info {
     position: absolute;
     top: 60%;
-    left: 10%;
+    left: 50%;
   }
-  
 }
