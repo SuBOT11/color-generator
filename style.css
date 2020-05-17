@@ -101,7 +101,7 @@ p {
   .btn {
     position: absolute;
     bottom: 25%;
-    left: 50%;
+    left: 30%;
 
     height: 20px;
     width: 30px;
@@ -112,6 +112,6 @@ p {
   .color-info {
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 30%;
   }
 }
